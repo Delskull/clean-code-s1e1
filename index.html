@@ -12,31 +12,29 @@
       <img src="./eisenhower-matrix.jpg" alt="matrix" class="header-img">
         <a class="info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
-    <div class="main-container">
-      <p>
-        <label for="new-task" class="task-header new-label">Add Item</label>
-      </p>
-        <div class="add-task">
-            <input id="new-task" class="task input" type="text">
-              <button class="button">Add</button>
-        </div>
-        <h3 class="task-header">Todo</h3>
-        <ul id="incomplete-tasks">
-          <li class="task-item">
-            <input type="checkbox" class="checkbox">
-            <label class="task label">Pay Bills</label>
-            <input type="text" class="task input">
-            <button class="edit button">Edit</button>
-            <button class="delete button"> <img src="./remove.svg" class="remove-img"></button>
-          </li>
-          <li class="edit-mode task-item">
-            <input type="checkbox" class="checkbox">
-            <label class="task label">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="task input">
-            <button class="edit button">Save</button>
-            <button class="delete button"><img src="./remove.svg" class="remove-img"></button>
-          </li>
-        </ul>
+    <main class="main-container">
+      <h3 class="new-label">Add Item</h3>
+      <div class="add-task">
+        <input id="new-task" class="task input" type="text">
+        <button class="button">Add</button>
+      </div>
+      <h3 class="task-header">Todo</h3>
+      <ul id="incomplete-tasks">
+        <li class="task-item">
+          <input type="checkbox" class="checkbox">
+          <label class="task label">Pay Bills</label>
+          <input type="text" class="task input">
+          <button class="edit button">Edit</button>
+          <button class="delete button"> <img src="./remove.svg" class="remove-img"></button>
+        </li>
+        <li class="edit-mode task-item">
+          <input type="checkbox" class="checkbox">
+          <label class="task label">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="task input">
+          <button class="edit button">Save</button>
+          <button class="delete button"><img src="./remove.svg" class="remove-img"></button>
+        </li>
+      </ul>
       <h3 class="task-header">Completed</h3>
       <ul id="completed-tasks">
         <li class="task-item">
@@ -47,7 +45,7 @@
           <button class="delete button"><img src="./remove.svg" class="remove-img"></button>
           </li>
       </ul>
-    </div>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
